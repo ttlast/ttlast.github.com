@@ -65,7 +65,6 @@ gettimeofday() 会把目前的时间用 tv 结构体返回，当地时区的信�
 		struct  timeval  start;
    		struct  timeval  end;
    		unsigned long timer;
-
    		gettimeofday(&start,NULL);
    		printf("hello world!\n");
    		gettimeofday(&end,NULL);
